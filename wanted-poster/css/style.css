@@ -136,4 +136,9 @@ figcaption {
 }
 /* Footer */
 
-
+footer {
+    padding: 1rem;
+    border-top-width: 2rem;
+    border-top-color: #333;
+    border-top-style: solid;
+}
