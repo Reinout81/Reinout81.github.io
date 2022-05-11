@@ -94,7 +94,9 @@ header, footer {
 /* Typography Styles */
 
 html {}
-h1{}
+h1{
+    font-family: montserrat, Arial, sans-serif;
+}
 h2 + p {}
 p {}
 li {}
