@@ -84,7 +84,11 @@ header, footer {
     src: url(../fonts/montserrat-regular.ttf);
     font-weight:normal;
     font-style:normal;}
-@font-face {}
+@font-face {
+    font-family:montserrat;
+    src: url(../fonts/josefinslab-regular.ttf);
+    font-weight:normal;
+    font-style:normal;}
 
 
 /* Typography Styles */
