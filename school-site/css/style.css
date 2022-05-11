@@ -79,19 +79,34 @@ header, footer {
 
 /* Imported Typfaces */
 
-
-
+@font-face {
+    font-family:montserrat;
+    src: url(../fonts/montserrat-regular.ttf)
+    font-weight:normal;
+    font-style:normal;}
+@font-face {}
 
 
 /* Typography Styles */
 
-
+html {}
+h1{}
+h2 + p {}
+p {}
+li {}
+figcaption {}
 
 
 
 
 /* Link Styling */
+a {}
 
+a:link,
+a:visited {}
+
+a:focus,
+a:hover {}
 
 
 
@@ -99,13 +114,22 @@ header, footer {
 
 /* List Styling */
 
-
+ul {}
+ol {}
+/long-list a: hover{}
 
 
 
 
 /* Navigation Menu */
 
+nav {}
+nav a{}
+
+nav a:focus,
+nav a:hover {}
+
+nav a:active {}
 
 
 
@@ -113,7 +137,7 @@ header, footer {
 
 /* Footer Styles */
 
-
+footer {}
 
 
 
