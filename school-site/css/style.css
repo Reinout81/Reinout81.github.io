@@ -85,7 +85,7 @@ header, footer {
     font-weight:normal;
     font-style:normal;}
 @font-face {
-    font-family:montserrat;
+    font-family:Josefinslab;
     src: url(../fonts/josefinslab-regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;}
@@ -93,9 +93,8 @@ header, footer {
 
 /* Typography Styles */
 
-html {font-family: montserrat, Arial, sans-serif;}
-h1{
-}
+html {font-family: Montserrat, Arial, serif;}
+h1{font-family: Josefinslab, Arial, serif;}
 h2 + p {}
 p {}
 li {}
@@ -105,7 +104,7 @@ figcaption {}
 
 
 /* Link Styling */
-a {  outline: none;
+a {outline: none;
     text-decoration: none;
     padding: 2px 1px 0;}
 
