@@ -93,8 +93,11 @@ header, footer {
 
 /* Typography Styles */
 
-html {font-family: Montserrat, Arial, serif;}
-h1{font-family: Josefinslab, Arial, serif;}
+html {font-family: Montserrat, Arial, sans-serif;}
+h1{font-family: Josefinslab, Arial, serif;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+letter-spacing: 0.125rem;}
 h2 + p {}
 p {}
 li {}
