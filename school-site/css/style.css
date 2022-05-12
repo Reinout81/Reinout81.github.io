@@ -96,9 +96,10 @@ header, footer {
 html {font-family: Montserrat, Arial, sans-serif;}
 h1{font-family: Josefinslab, Arial, serif;
     font-size: 3.75rem;
+    text-align: center;
     margin: 1.125rem;
 letter-spacing: 0.125rem;}
-h2 + p {}
+h2 + p {text-align: center;}
 p {}
 li {}
 figcaption {}
