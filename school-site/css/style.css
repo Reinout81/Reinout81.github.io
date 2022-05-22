@@ -92,8 +92,7 @@ figcaption {font-size: .75rem;
 margin-bottom: 2rem;}
 
 a {outline: none;
-    text-decoration: none;
-    padding: 2px 1px 0;}
+padding: 2px 1px 0;}
 
 a:link, a:visited {color:#33658A; }
 a:focus, a:hover {text-decoration-line: none;}
