@@ -126,6 +126,9 @@ a {outline: none;
     text-decoration: none;
     padding: 2px 1px 0;}
 
+a:link, a:visited {color:#33658A; }
+a:focus, a:hover {text-decoration-line: none;}
+
 a:link {color: #265301;}
 a:visited {color: #437A16;}
 
@@ -141,9 +144,9 @@ a:hover {  border-bottom: 1px solid;
 /* List Styling */
 /*lists
 All ordered and unordered lists will be targeted with styling, as well as well as the hover state of a class called long-list.*/
-
-ul {}
-ol {}
+ul, ol {margin: 1rem 0 1rem 0;}
+ul {list-style-type: square;}
+ol {list-style-type: lower-latin;}
 /long-list a: hover{}
 
 
