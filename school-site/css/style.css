@@ -122,7 +122,7 @@ To create the navigation menu, the navigation container should be styled, as wel
 nav {padding-left:0;
     margin-top:0.25rem;
     }
-nav a{text-decoration-style:none;
+nav a{text-decoration:none;
     display:inline-block;
     width: 100%;
     line-height: 3rem; 
