@@ -120,12 +120,12 @@ ol {list-style-type:lower-alpha}
 To create the navigation menu, the navigation container should be styled, as well as the links within that container. The focus, hover, and active states of those links will also receive styling.*/
 
 nav {padding-left:0;
-    margin-top:.25rem;
+    margin-top:0.25rem;
     }
-nav a{text-decoration-line: none;
+nav a{text-decoration: none;
     display:inline-block;
     width: 100%;
-    height: 0.1875rem; /* not sure of this line - Reinout */
+    line-height: 0.1875rem; 
     box-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
