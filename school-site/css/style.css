@@ -126,12 +126,12 @@ nav a{text-decoration: none;
     display:inline-block;
     width: 100%;
     line-height: 0.1875rem; 
-    box-align: center;
+    text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
 border:0.0625rem solid #33658A; }
 
-nav a:focus, a:hover {color: #fff;
+nav a:focus, a:hover {color: #FFF;
 background-color: #33658A;}
 
 nav a:active {color:#FFF;
@@ -145,7 +145,7 @@ background-color: #000;}
 /*footer
 The last item to receive styling will be the footer of the page*/
 
-footer+p {text-align: center;}
+footer {text-align: center;}
 
 
 
