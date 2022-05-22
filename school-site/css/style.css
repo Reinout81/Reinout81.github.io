@@ -184,7 +184,7 @@ background-color: #000;}
 /*footer
 The last item to receive styling will be the footer of the page*/
 
-footer {}
+footer {align-text: center;}
 
 
 
