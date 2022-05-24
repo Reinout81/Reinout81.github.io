@@ -49,3 +49,151 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+main {
+    overflow:auto;
+    min-width:45rem;
+    
+}
+
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+.long-list {
+    margin-top:0;
+}
+
+nav {
+    float: left;
+    width:11.25rem;
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: .125rem solid #33658A;
+  border-bottom: .125rem solid #33658A;
+}
+/* work from here on down */
+
+@font-face {
+    font-family:montserrat;
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;}
+@font-face {
+    font-family:Josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;}
+
+html {font-family: Montserrat, Arial, sans-serif;}
+h1 + h2 + h3 {font-family: Josefinslab, Times, serif;
+    letter-spacing: 0.125rem;}
+h1{font-size: 3.75rem;
+    text-align: center;
+    margin: 1.125rem;}
+h2{font-size: 1.5rem;}
+p , li {font-size: 0.75rem;
+word-spacing: 0.125rem;
+letter-spacing:0.03125rem}
+h2+p{text-indent:1.5rem}
+
+figcaption {font-size: .75rem;
+margin-bottom: 2rem;}
+
+a {outline: none;}
+
+a:link, a:visited {color:#33658A;}
+a:focus, a:hover {text-decoration: none;}
+
+a:focus { border-bottom: 1px solid;
+    background: #BAE498;}
+a:hover {  border-bottom: 1px solid;
+    background: #CDFEAA;}
+
+
+
+
+
+/* List Styling */
+/*lists
+All ordered and unordered lists will be targeted with styling, as well as well as the hover state of a class called long-list.*/
+ul + ol {margin: 1rem 0 1rem 0;
+}
+ul {list-style-type: square;}
+ol {list-style-type:lower-alpha}
+
+.long-list li:hover {text-transform: uppercase;}
+
+/* Navigation Menu */
+/*nav
+To create the navigation menu, the navigation container should be styled, as well as the links within that container. The focus, hover, and active states of those links will also receive styling.*/
+
+nav {padding-left:0;
+    margin-top:0.25rem;
+    }
+nav a{text-decoration:none;
+    display:inline-block;
+    width: 100%;
+    line-height: 3rem; 
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+border:0.0625rem solid #33658A; }
+
+nav a:focus, a:hover {color: #FFF;
+background-color: #33658A;}
+
+nav a:active {color:#FFF;
+background-color: #000;}
+
+
+
+
+
+/* Footer Styles */
+/*footer
+The last item to receive styling will be the footer of the page*/
+
+footer {text-align: center;}
