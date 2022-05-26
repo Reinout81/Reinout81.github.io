@@ -94,9 +94,6 @@ figcaption {
     margin-top:0;
 }
 
-nav {
-    float: left;
-    width:11.25rem;
 }
 
 footer {
@@ -116,16 +113,7 @@ header, footer {
 }
 /* work from here on down */
 
-@font-face {
-    font-family:montserrat;
-    src: url(../fonts/montserrat-regular.ttf) format('truetype');
-    font-weight:normal;
-    font-style:normal;}
-@font-face {
-    font-family:Josefinslab;
-    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
-    font-weight:normal;
-    font-style:normal;}
+
 
 html {font-family: Montserrat, Arial, sans-serif;}
 h1 + h2 + h3 {font-family: Josefinslab, Times, serif;
@@ -170,17 +158,14 @@ ol {list-style-type:lower-alpha}
 /*nav
 To create the navigation menu, the navigation container should be styled, as well as the links within that container. The focus, hover, and active states of those links will also receive styling.*/
 
-nav {padding-left:0;
-    margin-top:0.25rem;
-    }
-nav a{text-decoration:none;
-    display:inline-block;
-    width: 100%;
-    line-height: 3rem; 
-    text-align: center;
-    font-size: 1.125rem;
-    margin-bottom: 1.5rem;
-border:0.0625rem solid #33658A; }
+nav {
+    max-width: 100%;
+    border: 0.05rem solid #333;
+    border-left: none;
+    border-right: none;
+    border-color: #333;
+    min-height: 4.5rem;
+}
 
 nav a:focus, a:hover {color: #FFF;
 background-color: #33658A;}
