@@ -49,12 +49,8 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 
-* {
-    box-sizing: border-box;
-}
-
 html {
-    font-size:16px;
+    font-size:1rem;
 }
 
 body {
@@ -167,11 +163,46 @@ nav {
     min-height: 4.5rem;
 }
 
-nav a:focus, a:hover {color: #FFF;
-background-color: #33658A;}
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+  }
 
-nav a:active {color:#FFF;
-background-color: #000;}
+nav > ul > li {
+    float: left;
+    max-width: 5rem;
+    padding: 1rem 3rem 1rem 1rem;
+}
+
+nav > ul > li > a {
+    float: left;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #27476e;
+}
+
+nav > ul > li > a:link {
+    color: #27476e;
+    text-decoration: none;
+}
+
+nav > ul > li > a:visited {
+    color: #27476e;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: #333;
+    text-transform: uppercase;
+    transform: rotate(+5deg);
+    text-decoration:line-through;
+}
+
+nav > ul > li > a:active {
+    color: #27476e;
+    text-decoration: none;
 
 
 
