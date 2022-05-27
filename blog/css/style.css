@@ -90,7 +90,7 @@ figcaption {
     margin-top:0;
 }
 
-}
+
 
 footer {
     clear: both;
@@ -198,6 +198,7 @@ nav > ul > li > a:hover {
     text-transform: uppercase;
     transform: rotate(+5deg);
     text-decoration:line-through;
+    text-decoration-line:underline none;
 }
 
 nav > ul > li > a:active {
