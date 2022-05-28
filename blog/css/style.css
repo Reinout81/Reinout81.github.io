@@ -85,3 +85,8 @@ nav > ul > li > a:active {
 The last item to receive styling will be the footer of the page*/
 
 footer {text-align: center;}
+
+article > aside {
+    display: flex;
+    flex-direction:column;
+  }
