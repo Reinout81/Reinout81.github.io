@@ -38,10 +38,13 @@ html {
 @font-face {font-family: "Ultra";
 src: url(../fonts/serif/ultra-regular.ttf);}    
 /* header style - has H1*/
+
 h1 {text-align: center;
 transform: rotate(2deg);
 font-size: 4rem;
 text-shadow: .1rem .1rem black;}
+
+span {background-color:#276AAB;}
 
 /*nav style - has UL and IL */
 nav {
