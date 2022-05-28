@@ -87,5 +87,10 @@ The last item to receive styling will be the footer of the page*/
 footer {text-align: center;}
 
 aside {
- float-right
-  }
+    margin-top: 0;
+    max-width: 20%;
+    float: right;
+    line-height: 150%;
+    border-left: 0.1rem solid black;
+    padding: 0 2.5rem 0 2.5rem;
+    font-size: 0.8rem;}
