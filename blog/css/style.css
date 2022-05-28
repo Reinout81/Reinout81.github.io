@@ -53,16 +53,11 @@ html {
     font-size:1rem;
 }
 
-footer {
-    clear: both;
-    margin-top:1.5rem;
-}
-
 /* header and footer */
 
 header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
+  border-top: .125rem solid black;
+  border-bottom: .125rem solid black;
 }
 /* work from here on down */
 
@@ -112,24 +107,25 @@ nav > ul > li > a {
     float: left;
     font-size: 1.4rem;
     font-weight: 600;
-    color: black;}
+    color: #276AAB;}
 
 nav > ul > li > a:link {
-    color: black;
+    color: #276AAB;
     text-decoration: none;}
 
 nav > ul > li > a:visited {
-    color: black;
+    color: #276AAB;
     text-decoration: none;}
 
 nav > ul > li > a:hover {
-    color: black;
+    color: #276AAB;
     text-transform: uppercase;
     transform: rotate(-5deg);
-    text-decoration:line-through;}
+    text-decoration:line-through;
+Background: none;}
 
 nav > ul > li > a:active {
-    color: #27476e;
+    color: #276AAB;
     text-decoration: none;}
 
 /* Footer Styles */
