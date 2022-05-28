@@ -58,10 +58,6 @@ footer {
     margin-top:1.5rem;
 }
 
-section, aside, nav, footer {
-  padding: .5rem;
-}
-
 /* header and footer */
 
 header, footer {
@@ -73,17 +69,6 @@ header, footer {
 
 
 html {font-family: Montserrat, Arial, sans-serif;}
-h1 + h2 + h3 {font-family: Josefinslab, Times, serif;
-    letter-spacing: 0.125rem;}
-h1{font-size: 3.75rem;
-    text-align: center;
-    margin: 1.125rem;}
-h2{font-size: 1.5rem;}
-p , li {font-size: 0.75rem;
-word-spacing: 0.125rem;
-letter-spacing:0.03125rem}
-h2+p{text-indent:1.5rem}
-
 figcaption {font-size: .75rem;
 margin-bottom: 2rem;}
 
@@ -101,19 +86,6 @@ a:hover {  border-bottom: 1px solid;
 
 
 
-/* List Styling */
-/*lists
-All ordered and unordered lists will be targeted with styling, as well as well as the hover state of a class called long-list.*/
-ul + ol {margin: 1rem 0 1rem 0;
-}
-ul {list-style-type: square;}
-ol {list-style-type:lower-alpha}
-
-.long-list li:hover {text-transform: uppercase;}
-
-/* Navigation Menu */
-/*nav
-To create the navigation menu, the navigation container should be styled, as well as the links within that container. The focus, hover, and active states of those links will also receive styling.*/
 
 nav {
     max-width: 100%;
@@ -156,7 +128,7 @@ nav > ul > li > a:visited {
 
 nav > ul > li > a:hover {
     color: black;
-    background-color: white;
+
     text-transform: uppercase;
     transform: rotate(-5deg);
     text-decoration:line-through;
