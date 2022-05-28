@@ -118,7 +118,7 @@ nav > ul > li > a:visited {
     text-decoration: none;}
 
 nav > ul > li > a:hover {
-    color: #276AAB;
+    color: black;
     text-transform: uppercase;
     transform: rotate(-5deg);
     text-decoration:line-through;
