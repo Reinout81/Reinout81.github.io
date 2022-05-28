@@ -25,30 +25,35 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 html {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
     font-size:1rem;
+    color: black;
 }
 
-/* work from here on down */
+@font-face {font-family: "Lato";
+    src: url(../fonts/sans-serif/lato-regular.ttf);}
 
-html {font-family: Montserrat, Arial, sans-serif;}
-figcaption {font-size: .75rem;
-margin-bottom: 2rem;}
+@font-face {font-family: "Ultra";
+src: url(../fonts/serif/ultra-regular.ttf);}    
+/* header style - has H1*/
+h1 {d}
 
+/*nav style - has UL and IL */
 nav {
     max-width: 100%;
     border: 0.05rem solid black;
     border-left: none;
     border-right: none;
     border-color: black;
-    min-height: 4.5rem;
-}
+    min-height: 4.5rem;}
 
 nav > ul {
     list-style-type: none;
     margin: 0;
     padding-top: 0.5rem;
-    padding-left: 2rem;
-  }
+    padding-left: 2rem;  }
 
 nav > ul > li {
     float: left;
@@ -80,6 +85,13 @@ nav > ul > li > a:active {
     color: #276AAB;
     text-decoration: none;}
 
+
+/* work from here on down */
+
+figcaption {font-size: .75rem;
+margin-bottom: 2rem;}
+
+
 /* Footer Styles */
 /*footer
 The last item to receive styling will be the footer of the page*/
@@ -87,6 +99,7 @@ The last item to receive styling will be the footer of the page*/
 footer {text-align: center;}
 
 aside {
+    flex-
     margin-top: 0;
     max-width: 20%;
     float: right;
