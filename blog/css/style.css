@@ -19,8 +19,8 @@
             - transform
         Other
             - :nth()-child (to target specific child elements)
-            - :focus, :hover, :active (to target link states)
-            - @font-face or @import (to import typefaces)
+            - √ :focus, :hover, :active (to target link states)
+            - √ @font-face or @import (to import typefaces)
         */
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
@@ -38,7 +38,10 @@ html {
 @font-face {font-family: "Ultra";
 src: url(../fonts/serif/ultra-regular.ttf);}    
 /* header style - has H1*/
-h1 {d}
+h1 {text-align: center;
+transform: rotate(2deg);
+font-size: 4rem;
+text-shadow: .1rem .1rem black;}
 
 /*nav style - has UL and IL */
 nav {
