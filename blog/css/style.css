@@ -99,22 +99,21 @@ nav > ul > li > a:hover {
 nav > ul > li > a:active {
     color: #276AAB;
     text-decoration: none;}
+section {display:flex;
+flex-direction:row;
+}
+.main-section {display: flex;
+flex-direction: rown;}
 
-section {display: flex;
-flex-direction: column;
-width:80%;}
+main {margin: 3rem;}
 
 .subsection {display:flex;
 flex-direction: row;}
 
-aside {display: flex;
-    flex-direction: column;
-    width:20%;}
-
 figcaption {font-size: .75rem;
 margin-bottom: 2rem;}
 
-.article-image {max-width:60px}
+.article-image {mx}
 
 /* Footer Styles */
 /*footer
