@@ -53,7 +53,8 @@ nav {
     border-left: none;
     border-right: none;
     border-color: black;
-    min-height: 4.5rem;}
+    min-height: 4.5rem;
+}
 
 nav > ul {
     list-style-type: none;
@@ -91,8 +92,16 @@ nav > ul > li > a:active {
     color: #276AAB;
     text-decoration: none;}
 
+section {display: flex;
+flex-direction: column;
+width:80%;}
 
-/* work from here on down */
+.subsection {display:flex;
+flex-direction: row;}
+
+aside {display: flex;
+    flex-direction: column;
+    width:20%;}
 
 figcaption {font-size: .75rem;
 margin-bottom: 2rem;}
