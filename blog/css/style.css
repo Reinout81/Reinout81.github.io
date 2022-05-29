@@ -40,11 +40,18 @@ src: url(../fonts/serif/ultra-regular.ttf);}
 /* header style - has H1*/
 
 h1 {text-align: center;
-transform: rotate(2deg);
-font-size: 4rem;
-text-shadow: .2rem .2rem .2rem  #A9A9A9;}
-
-span {background-color:#276AAB;}
+    transform: rotate(2deg);
+    font-size: 3.5rem;
+    text-shadow: .2rem .2rem .2rem  #A9A9A9;}
+    
+    span {width: 500px;
+          padding:10px;
+           color: #FFF;
+          text-transform: uppercase;
+          text-shadow: .2rem .2rem .2rem  black;
+          background: linear-gradient(to right, #0F2852, #276A92, #0F2852);
+         height: 200px;
+        border-radius: }
 
 /*nav style - has UL and IL */
 nav {
