@@ -43,17 +43,18 @@ h1 {text-align: center;
     transform: rotate(2deg);
     font-size: 3.5rem;
     text-shadow: .2rem .2rem .2rem  #A9A9A9;}
-    
-    span {width: 500px;
-        padding:10px;
-         color: #FFF;
-        text-transform: uppercase;
-        text-shadow: .2rem .2rem .2rem  black;
-        font-weight: bold;
-        background: linear-gradient(to right, #0F2852, #2f81b2 25%, #0F2852);
-       height: 200px;
-      border-radius: 15px 0 15px 0;
-      box-shadow: .2rem .2rem .2rem  #A9A9A9;}
+H2 {font-size: 1.5rem}    
+
+span {width: 500px;
+    padding:10px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-shadow: .2rem .2rem .2rem  black;
+    font-weight: bold;
+    background: linear-gradient(to right, #0F2852, #2f81b2 25%, #0F2852);
+    height: 200px;
+    border-radius: 15px 0 15px 0;
+    box-shadow: .2rem .2rem .2rem  #A9A9A9;}
 
 /*nav style - has UL and IL */
 nav {
@@ -68,7 +69,7 @@ nav {
 nav > ul {
     list-style-type: none;
     margin: 0;
-    padding-top: 0.5rem;
+    padding-top: 0.15rem;
     padding-left: 2rem;  }
 
 nav > ul > li {
@@ -107,7 +108,6 @@ flex-direction: rown;}
 
 main {padding-left: 3rem;
 font-size:1.5rem;}
-
 
 
 .subsection {display:flex;
