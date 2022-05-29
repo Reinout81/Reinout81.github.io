@@ -106,6 +106,7 @@ aside {display: flex;
 figcaption {font-size: .75rem;
 margin-bottom: 2rem;}
 
+.article-image {max-width:60px}
 
 /* Footer Styles */
 /*footer
