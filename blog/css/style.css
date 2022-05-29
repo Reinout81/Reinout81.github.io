@@ -116,8 +116,12 @@ flex-direction: row;}
 figcaption {font-size: .75rem;
 margin-bottom: 2rem;}
 
-.article-image {float: left;}
-
+.article-image {float: left;
+margin:none;}
+.expand {text-decoration: none;
+    font-size:.8rem;
+    transform: rotate(-5deg);
+    text-decoration:line-through;}
 aside > image {width: 100%;}
 article {max-width:66%;
 float: left;}
