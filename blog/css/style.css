@@ -109,24 +109,25 @@ flex-direction: rown;}
 main {padding-left: 3rem;
 }
 
-
+.attribute {Font-size: 2rem;}
 .subsection {display:flex;
 flex-direction: row;}
 
 figcaption {font-size: .75rem;
 margin-bottom: 2rem;}
 
-.article-image {mx}
+.article-image {float: left;}
+
+aside > image {width: 100%;}
 article {max-width:66%;
 float: left;}
 aside {
-    display:flex;
-    flex-direction:column;
+
     margin-top: 0;
     Margin-right: 1rem;
     max-width: 20%;
     float: right;
-    line-height: 150%;
+    line-height: 1.5rem;
     border-left: 0.1rem solid black;
     padding: 0 2.5rem 0 2.5rem;
     font-size: 0.8rem;}
