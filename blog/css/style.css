@@ -105,8 +105,8 @@ The last item to receive styling will be the footer of the page*/
 footer {text-align: center;}
 
 aside {
-    flex-
     margin-top: 0;
+    Margin-right: 1rem;
     max-width: 20%;
     float: right;
     line-height: 150%;
