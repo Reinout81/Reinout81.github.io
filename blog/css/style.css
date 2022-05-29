@@ -115,13 +115,9 @@ margin-bottom: 2rem;}
 
 .article-image {mx}
 
-/* Footer Styles */
-/*footer
-The last item to receive styling will be the footer of the page*/
-
-footer {text-align: center;}
-
 aside {
+    display:flex;
+    flex-direction:column;
     margin-top: 0;
     Margin-right: 1rem;
     max-width: 20%;
@@ -130,3 +126,9 @@ aside {
     border-left: 0.1rem solid black;
     padding: 0 2.5rem 0 2.5rem;
     font-size: 0.8rem;}
+/* Footer Styles */
+/*footer
+The last item to receive styling will be the footer of the page*/
+
+footer {text-align: center;}
+
