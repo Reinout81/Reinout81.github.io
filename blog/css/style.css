@@ -49,9 +49,9 @@ h1 {text-align: center;
            color: #FFF;
           text-transform: uppercase;
           text-shadow: .2rem .2rem .2rem  black;
-          background: linear-gradient(to right, #0F2852, #276A92, #0F2852);
+          background: linear-gradient(to right, #0F2852 25%, #276A92 25%, #0F2852 50%);
          height: 200px;
-        border-radius: }
+        border-radius: 15px 0 15px 0}
 
 /*nav style - has UL and IL */
 nav {
