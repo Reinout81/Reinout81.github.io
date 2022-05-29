@@ -62,7 +62,7 @@ nav {
     border-left: none;
     border-right: none;
     border-color: black;
-    min-height: 4.5rem;
+    min-height: 4rem;
 }
 
 nav > ul {
@@ -78,7 +78,7 @@ nav > ul > li {
 
 nav > ul > li > a {
     float: left;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: #0F2852;}
 
@@ -105,7 +105,10 @@ flex-direction:row;
 .main-section {display: flex;
 flex-direction: rown;}
 
-main {margin: 3rem;}
+main {padding-left: 3rem;
+font-size:1.5rem;}
+
+
 
 .subsection {display:flex;
 flex-direction: row;}
@@ -114,7 +117,8 @@ figcaption {font-size: .75rem;
 margin-bottom: 2rem;}
 
 .article-image {mx}
-
+article {max-width:66%;
+float: left;}
 aside {
     display:flex;
     flex-direction:column;
