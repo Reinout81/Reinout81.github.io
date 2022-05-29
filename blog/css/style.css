@@ -45,13 +45,15 @@ h1 {text-align: center;
     text-shadow: .2rem .2rem .2rem  #A9A9A9;}
     
     span {width: 500px;
-          padding:10px;
-           color: #FFF;
-          text-transform: uppercase;
-          text-shadow: .2rem .2rem .2rem  black;
-          background: linear-gradient(to right, #0F2852 25%, #276A92 25%, #0F2852 50%);
-         height: 200px;
-        border-radius: 15px 0 15px 0}
+        padding:10px;
+         color: #FFF;
+        text-transform: uppercase;
+        text-shadow: .2rem .2rem .2rem  black;
+        font-weight: bold;
+        background: linear-gradient(to right, #0F2852, #2f81b2 25%, #0F2852);
+       height: 200px;
+      border-radius: 15px 0 15px 0;
+      box-shadow: .2rem .2rem .2rem  #A9A9A9;}
 
 /*nav style - has UL and IL */
 nav {
