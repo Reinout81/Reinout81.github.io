@@ -42,7 +42,7 @@ src: url(../fonts/serif/ultra-regular.ttf);}
 h1 {text-align: center;
 transform: rotate(2deg);
 font-size: 4rem;
-text-shadow: .1rem .1rem black;}
+text-shadow: .2rem .2rem .2rem  #A9A9A9;}
 
 span {background-color:#276AAB;}
 
