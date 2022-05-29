@@ -58,7 +58,7 @@ h1 {text-align: center;
 /*nav style - has UL and IL */
 nav {
     max-width: 100%;
-    border: 0.05rem solid black;
+    border: 0.15rem solid black;
     border-left: none;
     border-right: none;
     border-color: black;
@@ -80,22 +80,21 @@ nav > ul > li > a {
     float: left;
     font-size: 1.4rem;
     font-weight: 600;
-    color: #276AAB;}
+    color: #0F2852;}
 
 nav > ul > li > a:link {
-    color: #276AAB;
+    color: #0F2852;
     text-decoration: none;}
 
 nav > ul > li > a:visited {
-    color: #276AAB;
+    color: #0F2852;
     text-decoration: none;}
 
 nav > ul > li > a:hover {
     color: black;
     text-transform: uppercase;
     transform: rotate(-5deg);
-    text-decoration:line-through;
-Background: none;}
+    text-decoration:line-through;}
 
 nav > ul > li > a:active {
     color: #276AAB;
