@@ -62,56 +62,47 @@ nav {
     border-right: none;
     border-color: black;
     min-height: 4rem;}
-
 nav > ul {
     list-style-type: none;
     margin: 0;
     padding-top: 0.15rem;
     padding-left: 2rem;  }
-
 nav > ul > li {
     float: left;
     max-width: 5rem;
     padding: 1rem 3rem 1rem 1rem;}
-
 nav > ul > li > a {
     float: left;
     font-size: 1.5rem;
     font-weight: 600;
     color: #0F2852;}
-
 nav > ul > li > a:link {
     color: #0F2852;
     text-decoration: none;}
-
 nav > ul > li > a:visited {
     color: #0F2852;
     text-decoration: none;}
-
 nav > ul > li > a:hover {
     color: black;
     text-transform: uppercase;
     transform: rotate(-5deg);
     text-decoration:line-through;
 transition-duration:0.3s;}
-
 nav > ul > li > a:active {
     color: #276AAB;
     text-decoration: none;}
 
 /*Main - includes H2, .main-section, .article-image, .subsection, .article-image, .favorite-styled (button)*/
-main {padding-left: 3rem;
-}
-
+main {padding-left: 3rem;}
 main > H2 {font-size: 1.3rem,}
-
-.main-section {display: flex;
+main > .main-section {display: flex;
 flex-direction: column;}
-
-.subsection {display: flex;
+main > .subsection {display: flex;
     flex-direction: row;}
 
-
+article {max-width:70%;
+    float:left;
+    padding-right:1rem;}
     
 main > h3 {font-size: 1.1rem;}
 
