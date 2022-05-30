@@ -95,8 +95,8 @@ nav > ul > li > a:active {
 /*Main - includes H2, .main-section, .article-image, .subsection, .article-image, .favorite-styled (button)*/
 main {padding-left: 3rem;}
 main > H2 {font-size: 1.3rem,}
-.main-section {float:left;}
-.article-image {float: left;
+main > .main-section > article {float:left;}
+main > .article-image {float: left;
     margin:none;
 max-width: 25%;}
 main > .subsection {display: flex;
