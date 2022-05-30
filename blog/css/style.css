@@ -23,7 +23,7 @@
             - √ @font-face or @import (to import typefaces)
         */
 /* ------ START WRITING YOUR CODE BELOW ------ */
-
+/*general page-wide*/
 html {
     margin: 0;
     padding: 0;
@@ -37,15 +37,12 @@ html {
 
 @font-face {font-family: "Ultra";
 src: url(../fonts/serif/ultra-regular.ttf);}    
-/* header style - has H1*/
 
+/* header style - has H1*/
 h1 {text-align: center;
     transform: rotate(2deg);
     font-size: 3.5rem;
     text-shadow: .2rem .2rem .2rem  #A9A9A9;}
-
-main > H2 {font-size: 1.3rem,}    
-main > h3 {font-size: 1.1rem;}
 span {
     padding:10px;
     color: #FFF;
@@ -64,8 +61,7 @@ nav {
     border-left: none;
     border-right: none;
     border-color: black;
-    min-height: 4rem;
-}
+    min-height: 4rem;}
 
 nav > ul {
     list-style-type: none;
@@ -101,15 +97,17 @@ nav > ul > li > a:hover {
 nav > ul > li > a:active {
     color: #276AAB;
     text-decoration: none;}
-section {display:flex;
-flex-direction:row;
-}
-.main-section {display: flex;
-flex-direction: rown;}
 
+/*Main - includes H2, .main-section, .article-image, .subsection, .article-image, .favorite-styled (button)*/
+H2 {font-size: 1.3rem,}
+.main-section {display: flex;
+flex-direction: column;}
+.subsection {display: flex;
+    flex-direction: row;}
 main {padding-left: 3rem;
 }
-
+    
+main > h3 {font-size: 1.1rem;}
 .attribute {Font-size: 2rem;}
 .subsection {display:flex;
 flex-direction: row;}
