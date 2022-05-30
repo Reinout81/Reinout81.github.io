@@ -95,7 +95,10 @@ nav > ul > li > a:active {
 /*Main - includes H2, .main-section, .article-image, .subsection, .article-image, .favorite-styled (button)*/
 main {padding-left: 3rem;}
 main > H2 {font-size: 1.3rem,}
-main > .main-section {float:left;}
+.main-section {float:left;}
+.article-image {float: left;
+    margin:none;
+max-width: 25%;}
 main > .subsection {display: flex;
     flex-direction: row;}
 
@@ -112,8 +115,7 @@ flex-direction: row;}
 figcaption {font-size: .75rem;
 margin-bottom: 2rem;}
 
-.article-image {float: left;
-margin:none;}
+
 .expand {text-decoration: none;
     font-size:.8rem;
     transform: rotate(-15deg);
