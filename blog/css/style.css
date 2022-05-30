@@ -95,10 +95,11 @@ nav > ul > li > a:active {
 /*Main - includes H2, .main-section, .article-image, .subsection, .article-image, .favorite-styled (button)*/
 main {padding-left: 3rem;}
 main > H2 {font-size: 1.3rem,}
+main > h3 {font-size: 1.1rem;}
 main > .main-section > article {float:left;}
 main > .article-image {float: left;
     margin:none;
-max-width: 25%;}
+    max-width: 25%;}
 main > .subsection {display: flex;
     flex-direction: row;}
 
@@ -106,7 +107,8 @@ article {max-width:70%;
     float:left;
     padding-right:1rem;}
     
-main > h3 {font-size: 1.1rem;}
+time {font-style:italic;
+font-size:.8rem;}
 
 .attribute {Font-size: 2rem;}
 .subsection {display:flex;
