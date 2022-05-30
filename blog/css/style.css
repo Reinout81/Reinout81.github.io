@@ -96,17 +96,16 @@ nav > ul > li > a:active {
 main {padding-left: 3rem;}
 main > H2 {font-size: 1.3rem,}
 main > h3 {font-size: 1.1rem;}
-main > .main-section > article {float:left;}
+main > .main-section > article {max-width:70%;
+    float:left;
+    padding-right:1rem;}
 main > .article-image {float: left;
     margin:none;
     max-width: 25%;}
 main > .subsection {display: flex;
     flex-direction: row;}
 
-article {max-width:70%;
-    float:left;
-    padding-right:1rem;}
-    
+     
 time {font-style:italic;
 font-size:.8rem;}
 
@@ -122,11 +121,8 @@ margin-bottom: 2rem;}
     font-size:.8rem;
     transform: rotate(-15deg);
 }
-aside > image {width: 100%;}
-article {max-width:66%;
-float: left;}
-aside {
 
+aside {
     margin-top: 0;
     Margin-right: 1rem;
     max-width: 20%;
@@ -135,6 +131,8 @@ aside {
     border-left: 0.1rem solid black;
     padding: 0 2.5rem 0 2.5rem;
     font-size: 0.8rem;}
+aside > image {width: 100%;}
+
 /* Footer Styles */
 /*footer
 The last item to receive styling will be the footer of the page*/
