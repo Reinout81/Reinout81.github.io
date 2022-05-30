@@ -23,7 +23,7 @@
             - √ @font-face or @import (to import typefaces)
         */
 /* ------ START WRITING YOUR CODE BELOW ------ */
-/*general page-wide*/
+/*general*/
 html {
     margin: 0;
     padding: 0;
@@ -39,12 +39,12 @@ html {
 src: url(../fonts/serif/ultra-regular.ttf);}    
 
 /* header style - has H1*/
-h1 {text-align: center;
+header > h1 {text-align: center;
     transform: rotate(2deg);
     font-size: 3.5rem;
     text-shadow: .2rem .2rem .2rem  #A9A9A9;}
-span {
-    padding:10px;
+.highlight {
+    padding:.625rem;
     color: #FFF;
     font-family:  "Ultra", serif;
     text-transform: uppercase;
@@ -100,14 +100,18 @@ nav > ul > li > a:active {
 
 /*Main - includes H2, .main-section, .article-image, .subsection, .article-image, .favorite-styled (button)*/
 H2 {font-size: 1.3rem,}
+
 .main-section {display: flex;
 flex-direction: column;}
+
 .subsection {display: flex;
     flex-direction: row;}
+
 main {padding-left: 3rem;
 }
     
 main > h3 {font-size: 1.1rem;}
+
 .attribute {Font-size: 2rem;}
 .subsection {display:flex;
 flex-direction: row;}
