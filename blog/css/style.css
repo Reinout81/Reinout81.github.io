@@ -92,7 +92,8 @@ nav > ul > li > a:hover {
     color: black;
     text-transform: uppercase;
     transform: rotate(-5deg);
-    text-decoration:line-through;}
+    text-decoration:line-through;
+transition-duration:0.3s;}
 
 nav > ul > li > a:active {
     color: #276AAB;
