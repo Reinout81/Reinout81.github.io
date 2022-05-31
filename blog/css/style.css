@@ -101,9 +101,9 @@ main > .main-section > article {max-width:70%;
     padding-right:1rem;}
 main > .subsection {display: flex;
     }
-main > .article-image {float: left;
-    margin:none;
-    max-width: 25%;}
+    .article-image {float: left;
+        margin:0 1rem 0 0;
+        }
 
 
      
