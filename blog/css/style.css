@@ -117,7 +117,8 @@ button {margin: 2rem 0 1rem 0;
     float: left;
     padding: 1rem;
     border: 0;
-    border-radius: 15px;
+    width: 12rem;
+    border-radius: 10px;
     box-shadow: .2rem .2rem .2rem  #A9A9A9;
     background: linear-gradient(to right, #0F2852, #2f81b2 25%, #0F2852);
     font-size: 1.3rem;
@@ -125,20 +126,10 @@ button {margin: 2rem 0 1rem 0;
     color: #FFF;
     font-weight: 700;
     }
-button:hover {margin: 2rem 0 1rem 0;
-    float: left;
-    padding: 1rem;
-    border: 0;
-    border-radius: 15px;
-    box-shadow: .2rem .2rem .2rem  #A9A9A9;
-    background: linear-gradient(to right, #0F2852, #2f81b2 25%, #0F2852);
-    font-size: 1.3rem;
+button:hover {
     transform: rotate(-5deg);
-    font-family:  "Lato", serif;
-    color: #FFF;
-    font-weight: 700;
     text-decoration:line-through;
-transition-duration:0.3s;}
+    transition-duration:0.3s;}
 .attribute {Font-size: 2rem;}
 
 figcaption {font-size: .75rem;
