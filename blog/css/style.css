@@ -94,13 +94,14 @@ nav > ul > li > a:active {
 
 /*Main - includes H2, .main-section, .article-image, .subsection, .article-image, .favorite-styled (button)*/
 main {padding-left: 3rem;}
-main > H2 {font-size: 1.3rem,}
+main > H2 {font-size: 1.3rem;
+margin-top:3rem;}
 main > h3 {font-size: 1.1rem;}
 main > .main-section > article {max-width:70%;
     float:left;
     padding-right:1rem;}
-.subsection {display: -webkit-flex;
-    -webkit-box-orient: horizontal; 
+.subsection {display: flex;
+   orientation: horizontal; 
     }
 .subsection img {width:100%;
         margin:none;
