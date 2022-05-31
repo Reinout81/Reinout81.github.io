@@ -99,11 +99,12 @@ main > h3 {font-size: 1.1rem;}
 main > .main-section > article {max-width:70%;
     float:left;
     padding-right:1rem;}
+main > .subsection {display: flex;
+    }
 main > .article-image {float: left;
     margin:none;
     max-width: 25%;}
-main > .subsection {display: flex;
-    flex-direction: row;}
+
 
      
 time {font-style:italic;
@@ -114,7 +115,8 @@ font-size:.8rem;}
 flex-direction: row;}
 
 figcaption {font-size: .75rem;
-margin-bottom: 2rem;}
+    background-color: #eeeede;
+        padding: 0.5rem;}
 
 
 .expand {text-decoration: none;
