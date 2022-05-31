@@ -111,8 +111,6 @@ time {font-style:italic;
 font-size:.8rem;}
 
 .attribute {Font-size: 2rem;}
-.subsection {display:flex;
-flex-direction: row;}
 
 figcaption {font-size: .75rem;
     background-color: #eeeede;
@@ -120,7 +118,7 @@ figcaption {font-size: .75rem;
 
 
 .expand {text-decoration: none;
-    font-size:.8rem;
+    font-size:.5rem;
     transform: rotate(-15deg);
 }
 
