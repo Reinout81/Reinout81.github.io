@@ -106,8 +106,8 @@ main > .main-section > article {max-width:70%;
         margin:none;
         padding:auto;}
 .article-image {float: left;
-        margin:0;
-        padding: 1rem 1rem 0 0;
+        margin: 0 0 -6px 0;
+        padding: 0 1rem 0 0;
         }
      
 time {font-style:italic;
@@ -134,11 +134,12 @@ aside {
     border-left: 0.1rem solid black;
     padding: 0 2.5rem 0 2.5rem;
     font-size: 0.8rem;}
-aside > image {width: 100%;}
+aside > img {width: 100%;}
 
 /* Footer Styles */
 /*footer
 The last item to receive styling will be the footer of the page*/
 
-footer {text-align: center;}
+footer {float:left;
+width:100%;}
 
