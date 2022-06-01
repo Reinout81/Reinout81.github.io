@@ -95,11 +95,13 @@ nav > ul > li > a:active {
 /*Main - includes H2, .main-section, .article-image, .subsection, .article-image, .favorite-styled (button)*/
 main {padding-left: 3rem;}
 main > H2 {font-size: 1.5rem;
-margin-top:3rem;}
+    margin-top:3rem;}
 main > h3 {font-size: 1.1rem;}
-main > .main-section > article {max-width:70%;
+main > .main-section > article {max-width:65%;
     float:left;
-    padding-right:1rem;}
+    padding-right:1rem;
+    font-size: 1.3rem;
+    border-right: 0.15rem solid black;}
 .subsection {display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr; 
     margin-top:2rem;
@@ -147,12 +149,13 @@ figcaption {font-size: .75rem;
 aside {
     margin-top: -3rem;
     Margin-right: 1rem;
-    max-width: 20%;
+    /*margin-left: -1rem;*/
+    max-width: 25%;
     float: left;
     line-height: 1.5rem;
-    border-left: 0.1rem solid black;
-    padding: 0 2.5rem 0 2.5rem;
-    font-size: 0.8rem;}
+    /*border-left: 0.1rem solid black;*/
+    padding: 0 2.5rem 0 1.5rem;
+    font-size: 1rem;}
 aside > img {width: 100%;}
 aside > p {border-bottom: 0.1rem solid #333;
           padding-bottom: .5rem;}
