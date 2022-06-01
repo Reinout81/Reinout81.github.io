@@ -102,6 +102,9 @@ main > .main-section > article {max-width:70%;
     padding-right:1rem;}
 .subsection {display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr; 
+    margin-top:2rem;
+    background:#eeeede;
+    padding:.5rem;
     }
 .subsection img {width:100%;
     margin: 0 0 -6px 0;
