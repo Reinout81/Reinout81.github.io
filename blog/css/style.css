@@ -100,11 +100,11 @@ main > h3 {font-size: 1.1rem;}
 main > .main-section > article {max-width:70%;
     float:left;
     padding-right:1rem;}
-.subsection {display: flex;
-   orientation: horizontal; 
+.subsection {display: grid;
+    grid-template-columns:1fr 1fr 1fr; 
     }
 .subsection img {width:100%;
-        margin:none;
+    margin: 0 0 -6px 0;
         padding:auto;}
 .article-image {float: left;
         margin: 0 0 -6px 0;
