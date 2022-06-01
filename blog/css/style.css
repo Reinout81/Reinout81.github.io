@@ -24,8 +24,8 @@
         */
 /* ------ START WRITING YOUR CODE BELOW ------ */
 /*general*/
-html {
-    margin: 0;
+html {max-width:1200px;
+    margin: 0 auto;
     padding: 0;
     font-family: "Lato", sans-serif;
     font-size:1rem;
@@ -147,7 +147,7 @@ figcaption {font-size: .75rem;
 }
 
 aside {
-    margin-top: -3rem;
+    margin-top: -4rem;
     Margin-right: 1rem;
     /*margin-left: -1rem;*/
     max-width: 25%;
