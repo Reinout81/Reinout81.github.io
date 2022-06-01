@@ -130,7 +130,6 @@ button:hover {
     transform: rotate(-5deg);
     text-decoration:line-through;
     transition-duration:0.3s;}
-.attribute {Font-size: 2rem;}
 
 figcaption {font-size: .75rem;
     background-color: #eeeede;
@@ -143,7 +142,7 @@ figcaption {font-size: .75rem;
 }
 
 aside {
-    margin-top: 0;
+    margin-top: -3rem;
     Margin-right: 1rem;
     max-width: 20%;
     float: left;
