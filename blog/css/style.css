@@ -164,6 +164,15 @@ aside > p {border-bottom: 0.1rem solid #333;
 /*footer
 The last item to receive styling will be the footer of the page*/
 
-footer {float:left;
-width:100%;}
+footer > p {
+    padding: 0;
+}
 
+footer p:nth-child(1) {
+    float: none;
+}
+
+footer p:nth-child(2) {
+    float: none;
+    text-align: left;
+}
