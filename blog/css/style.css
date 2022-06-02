@@ -164,17 +164,32 @@ aside > p {border-bottom: 0.1rem solid #333;
 /*footer
 The last item to receive styling will be the footer of the page*/
 
+footer {
+    float: left;
+    width: 100%;
+}
+
 footer > p {
-    padding: 0;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 3rem;    
 }
 
 footer p:nth-child(1) {
-    float: none;
-}
-
+    float: left;}
 footer p:nth-child(2) {
-    float: none;
-    text-align: left;
-}
-
-footer a {font-style:italic;}
+    float: right;
+    text-align: right;}
+footer > p > a {
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: black;}
+footer > p > a:link {
+    color: black;}
+footer > p > a:visited {
+    color: #1a499b;}
+footer > p > a:hover {
+    text-decoration: underline;
+    color: #0F2852;}
+footer > p > a:active {
+    color: black;}
