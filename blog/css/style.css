@@ -164,22 +164,20 @@ aside > p {border-bottom: 0.1rem solid #333;
 /*footer
 The last item to receive styling will be the footer of the page*/
 
-footer {
-    float: left;
-    width: 100%;
-}
-
 footer > p {
-    font-size: 0.8rem;
+    font-size: .7rem;
     font-weight: 300;
     padding: 3rem;    
 }
-
+footer a {font-style:italic;
+         font-size:1.5rem;}
 footer p:nth-child(1) {
-    float: left;}
+    float: left;
+/*background-color: red;*/}
 footer p:nth-child(2) {
     float: right;
-    text-align: right;}
+    text-align: right;
+/*background-color:green*/}
 footer > p > a {
     font-size: 0.7rem;
     text-decoration: none;
