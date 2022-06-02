@@ -176,3 +176,5 @@ footer p:nth-child(2) {
     float: none;
     text-align: left;
 }
+
+footer a {font-style:italic;}
