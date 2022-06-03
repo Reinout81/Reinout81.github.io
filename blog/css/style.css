@@ -24,7 +24,7 @@
         */
 /* ------ START WRITING YOUR CODE BELOW ------ */
 /*general*/
-html {max-width:1200px;
+html {max-width:1300px;
     margin: 0 auto;
     padding: 0;
     font-family: "Lato", sans-serif;
@@ -94,10 +94,10 @@ nav > ul > li > a:active {
 
 /*Main - includes H2, .main-section, .article-image, .subsection, .article-image, .favorite-styled (button)*/
 main {padding-left: 3rem;}
-main > H2 {font-size: 1.5rem;
-    margin-top:3rem;}
-main > h3 {font-size: 1.1rem;}
-main > .main-section > article {max-width:65%;
+main > section > article > h3 {font-size: 1.6rem;}
+main > section > article > h2 {font-size:2rem;}
+main > section > article > p {font-size: 1.4rem;}
+main > section > article {max-width:65%;
     float:left;
     padding-right:1rem;
     font-size: 1.3rem;
@@ -109,8 +109,7 @@ main > .main-section > article {max-width:65%;
     padding:.5rem;
     grid-gap: .5rem;}
 .subsection img {width:100%;
-    margin: 0 0 -6px 0;
-        padding:auto;}
+}
 .article-image {float: left;
         margin: 0 0 -6px 0;
         padding: 0 1rem 0 0;
@@ -136,9 +135,9 @@ button:hover {
     text-decoration:line-through;
     transition-duration:0.3s;}
 
-figcaption {font-size: .75rem;
+/*figcaption {font-size: .75rem;
     background-color: #eeeede;
-        padding: 0.5rem;}
+        padding: 0.5rem;}*/
 
 
 .expand {text-decoration: none;
@@ -147,7 +146,7 @@ figcaption {font-size: .75rem;
 }
 
 aside {
-    margin-top: -4rem;
+    margin-top: 3rem;
     Margin-right: 1rem;
     /*margin-left: -1rem;*/
     max-width: 25%;
@@ -156,7 +155,7 @@ aside {
     /*border-left: 0.1rem solid black;*/
     padding: 0 2.5rem 0 1.5rem;
     font-size: 1rem;}
-aside > img {width: 100%;}
+/*aside > img {width: 100%;}*/
 aside > p {border-bottom: 0.1rem solid #333;
           padding-bottom: .5rem;}
 
