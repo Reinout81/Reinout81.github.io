@@ -99,7 +99,7 @@ main > section > article > h3 {font-size: 1.6rem;}
 main > section > article > h2 {font-size:2rem;}
 main > section > article > p {font-size: 1.4rem;}
 main > section > article {max-width:65%;
-    Margin-top:3rem;
+    /*Margin-top:3rem;*/
     float:left;
     padding-right:1rem;
     font-size: 1.3rem;
