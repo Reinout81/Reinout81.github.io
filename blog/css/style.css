@@ -143,8 +143,8 @@ button:hover {
 
 
 .expand {text-decoration: none;
-    font-size:.5rem;
-    transform: rotate(-15deg);
+    font-size:.4rem;
+    letter-spacing: .3rem;
 }
 
 aside {
